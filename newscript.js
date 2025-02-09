@@ -1,4 +1,4 @@
-const OMDB_API_BASE = "http://www.omdbapi.com/";
+const OMDB_API_BASE = "https://www.omdbapi.com/";
 const OMDB_API_KEY = "597ad976"; 
 const TMDB_API_BASE = "https://api.themoviedb.org/3";
 const TMDB_API_KEY = "44a2bec2a5dd29afd8e6bd00c7c14093"; 
