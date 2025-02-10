@@ -12,6 +12,10 @@
 - Adding a pin feature to create a collection of movies of interest of the user.
 - Having a share option where the details of the movie can be shared by th user to his/her friends.
 - A community page where people can suggest each other movies, webseries, TV shows, etc.
+- Giving recommendations according to the timelines of when they were released.
+- Optimising the search engine for two movies having same name.
+- Review section under the movie where the user can add their review about that movie.
+- Adding another information parameter for the movie searched i.e where is the movie available online: prime, netflix, zee5, etc.
 
 ### Few improvements:
 If we look at the recommendation logic, the first genre word given by OMDB API is passed through the TMDB API to get recommendations. So Annabelle having short as the first genre word and then horror doesn't show any recommedation but on the other hand when we search The NUN, its first genre word is horror and so it shows horror recommendations. Same goes for Interstellar, first word is adventure, then drama and then sci-fi so it shows adventure related recommendations and not sci-fi. So I am working on that to make it better and more robust so that it considers all the genre words.
